@@ -32,14 +32,16 @@
             text-decoration: none;
             color: #fff;
             font-weight: bold;
-            border: 1px solid #fff; /* Add a border around the hyperlinks */
+            background-color: #4b5320; /* Set background color to match body background */
             padding: 5px 10px; /* Add padding to the hyperlinks for better visibility */
             border-radius: 5px; /* Add border-radius for a rounded appearance */
             transition: background-color 0.3s; /* Smooth transition for the hover effect */
+            display: inline-block; /* Make hyperlinks act like inline-block elements */
         }
 
-        nav a:hover {
-            background-color: #46522a; /* Slightly darker background on hover */
+        nav a:hover,
+        nav a:active {
+            background-color: #46522a; /* Slightly darker background on hover or press */
         }
 
         section {
@@ -125,7 +127,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Plastic Modeling Tips</p>
+        <p>&copy; 2024 Plasling Tips</p>
     </footer>
 
 </body>
